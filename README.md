@@ -1,11 +1,12 @@
 # winston-logger
-winston logging nodejs example
+winston logging nodejs example, logger.js could be just used as an module.
 
 # Description
 Demo for how to setup winston logging for Express server.
-- A abstract logging layer
+- An abstract logging layer
 - Read config from YAML file
-- Split logs with Console and Files according to specified level
+- Split logs with console and files according to level
+- Log format json for prod, but plain-text otherwise
 
 # Run
 ```

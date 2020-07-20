@@ -1,0 +1,5 @@
+winston:
+  service: exampleApp
+  level: debug
+  error_log: error.log
+  combined_log: combined.log
